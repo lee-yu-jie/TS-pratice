@@ -16,6 +16,7 @@ console.log(b);
 // 陣列
 let arr: string[] = ['apple']
 let arr1: number[][] = [[2, 3], [4, 5]] //二維
-// 元祖，若陣列中每個值行別不同  
+let arr4:( string|number )[] = [18,'Kira']
+// Tuple元祖，若陣列中每個值型別不同  
 let arr2: [string, boolean, number] = ['2', true, 3]
 let arr3: [string, boolean][] = [['2', false]]
