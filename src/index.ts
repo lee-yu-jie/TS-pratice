@@ -8,5 +8,14 @@ let b: number | string = 'banana'
 let c: boolean
 c = false
 let d: undefined
-let e: null
+let e: null 
+// 任何型別都行 any, 避免使用
+let f: any
 console.log(b);
+
+// 陣列
+let arr: string[] = ['apple']
+let arr1: number[][] = [[2, 3], [4, 5]] //二維
+// 元祖，若陣列中每個值行別不同  
+let arr2: [string, boolean, number] = ['2', true, 3]
+let arr3: [string, boolean][] = [['2', false]]
