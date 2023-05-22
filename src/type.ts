@@ -31,5 +31,6 @@ console.log(toyota);
 
 // 要為物件類型宣告型別要使用 interface 或 type 
 // 1.interface 可以擴充, type 不行
-// 2.type 有=
+// 2.type 有 =
 // 3.物件大部分皆用interface
+// 4.interface可被繼承
