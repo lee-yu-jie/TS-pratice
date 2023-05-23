@@ -1,6 +1,12 @@
 // ------ type ------
+
+// 可以宣告型別
 type a = null | string
 let arg: a = null
+// 也可以宣告固定的值
+type name = 'Mike' | 'John'
+const male: name = 'John'
+//const female: name = 'Shelly' //錯誤 因為不是一開始宣告的值
 
 type fruits = {
   name: string,
@@ -12,25 +18,3 @@ let banana: fruits = {
   name: 'ban',
   isfresh: true
 }
-
-// ----- interface -----
-interface car {
-  color: string,
-  height: number
-}
-interface car {
-  age: number
-}
-
-let toyota: car = {
-  color: 'black',
-  height: 1000,
-  age: 3
-}
-console.log(toyota);
-
-// 要為物件類型宣告型別要使用 interface 或 type 
-// 1.interface 可以擴充, type 不行
-// 2.type 有 =
-// 3.物件大部分皆用interface
-// 4.interface可被繼承
